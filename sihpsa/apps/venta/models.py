@@ -19,7 +19,7 @@ class Articulo(models.Model):
     estado = models.CharField(max_length=100)
     existencia = models.IntegerField()
     descripcion = models.CharField(max_length=200)
-    imagen_articulo = models.ImageField(upload_to='static/img', blank=True,null=True)
+    #imagen_articulo = models.ImageField(upload_to='static/img', blank=True,null=True)
     vendible = models.BooleanField()
 
 

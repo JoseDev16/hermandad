@@ -51,7 +51,7 @@ class Miembro(models.Model):
     nombre_encargado = models.CharField(max_length=50)
     parentesco = models.CharField(max_length=50)
     num_encargado = models.CharField(max_length=15)
-    foto_m = models.ImageField(upload_to='static/img', blank=True)
+    #foto_m = models.ImageField(upload_to='static/img', blank=True)
 
     def __str__(self):
         return self.user.username

@@ -13,7 +13,7 @@ class ArticuloForm(forms.ModelForm):
             'estado',
             'existencia',
             'descripcion',
-            'imagen_articulo',
+            #'imagen_articulo',
             'vendible',
         ]
 
@@ -25,7 +25,7 @@ class ArticuloForm(forms.ModelForm):
             'existencia': 'Existencia',
             'descripcion': 'Descripcion',
             'vendible': '¿Es Vendible?',
-            'imagen_articulo': 'Imagen',
+            #'imagen_articulo': 'Imagen',
         }
 
         widgets = {
@@ -36,5 +36,5 @@ class ArticuloForm(forms.ModelForm):
             'existencia': forms.TextInput(attrs={'class': 'form-control'}),
             'descripcion': forms.TextInput(attrs={'class': 'form-control'}),
             'vendible': forms.NullBooleanSelect(attrs={'class': 'form-control'}),
-            'imagen_articulo': forms.FileInput(),
+            #'imagen_articulo': forms.FileInput(),
         }

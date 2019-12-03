@@ -40,7 +40,7 @@ class MiembroForm(forms.ModelForm):
 			'nombre_encargado',
 			'parentesco',
 			'num_encargado',
-			'foto_m',
+			#'foto_m',
 		]
 		labels = {
 			'nombre_m': 'Nombre del miembro',
@@ -58,7 +58,7 @@ class MiembroForm(forms.ModelForm):
 			'nombre_encargado': 'Nombre del encargado',
 			'parentesco': 'Parentesco',
 			'num_encargado': 'Número del encargado',
-			'foto_m': 'Foto',
+			#'foto_m': 'Foto',
 		}
 		widgets = {
 			'nombre_m': forms.TextInput(),
@@ -75,5 +75,5 @@ class MiembroForm(forms.ModelForm):
 			'uniformes': forms.CheckboxSelectMultiple(),
 			'nombre_encargado': forms.TextInput(),
 			'parentesco': forms.TextInput(),
-			'num_encargado': forms.TextInput(),
+			#'num_encargado': forms.TextInput(),
 		}
