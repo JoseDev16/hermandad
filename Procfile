@@ -1,0 +1,1 @@
+web: gunicorn sihpsa.wsgi --log-file -
