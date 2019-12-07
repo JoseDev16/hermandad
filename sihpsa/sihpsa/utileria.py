@@ -4,7 +4,7 @@ from io import BytesIO
 from django.http import HttpResponse
 from django.template.loader import get_template
 
-#from xhtml2pdf import pisa
+from xhtml2pdf import pisa
 
 def render_pdf(url_template, contexto={}):
 	#renderizando un template a un pdf
