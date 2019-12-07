@@ -1,0 +1,15 @@
+Django==2.0.5
+gunicorn
+pytz
+whitenoise
+Pillow
+django-heroku
+djangorestframework==3.8.2
+html5lib==1.0b8
+mpmath==1.0.0
+PyPDF2==1.26.0
+six==1.12.0
+xhtml2pdf==0.2.3
+reportlab
+webencodings
+sympy
